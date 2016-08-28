@@ -5,6 +5,8 @@ direction (to increase the displayed number by ) or the negative direction (to d
 Note that, due to the cyclical nature of the dial, the next number after  is  and the number before  is ). 
 For example, if the number  is currently displayed on the dial, you can rotate the dial to either  (positive direction) or 
 (negative direction) in a single operation.
+Given the initial configuration of numbers in each slot and some desired configuration of numbers, determine the minimum number
+of operations you must perform to change the lock's slots to the desired configuration.
 */
 
 import java.io.*;
